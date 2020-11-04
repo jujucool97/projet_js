@@ -5,12 +5,9 @@
 </template>
 
 <script>
-// import ListeRestaurants from './components/ListeRestaurants.vue'
-
 export default {
   name: "App",
   components: {
-    // ListeRestaurants
   },
 };
 </script>

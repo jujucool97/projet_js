@@ -175,10 +175,8 @@ import { gmapApi } from "vue2-google-maps";
 export default {
   name: "ListeRestaurants",
   props: {},
-  //components: {},
   data() {
     return {
-      showDialog: false,
       showDialog2: false,
       active: false,
       value: null,
@@ -213,14 +211,9 @@ export default {
       },
     };
   },
-  //une fois que l'html est charge, je m'execute
-  mounted: function () {
-    console.log("AVANT AFFICHAGE");
-    this.getRestaurantsFromServer();
 
-    // this.$refs.mapRef.$mapPromise.then((map) => {
-    //   map.panTo({ lat: 1.38, lng: 103.8 });
-    // });
+  mounted: function () {
+    this.getRestaurantsFromServer();
   },
 
   computed: {
@@ -373,20 +366,6 @@ h1 {
   color: #ffffff;
 }
 
-/* .md-content {
-    width: 200px;
-    height: 200px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
-/*
-input:valid {
-  background-color: lightGreen;
-}
-*/
-
 .bordureRouge {
   border: 2px dashed red;
 }
@@ -394,10 +373,4 @@ input:valid {
 .image {
   background-image: url("https://provence-alpes-cotedazur.com/app/uploads/2019/03/Nice-PACA-credit-Fotolia-e1553851803445.jpg");
 }
-
-/*
-.md-table-head-container {
-  margin-left: auto;
-  margin-right: auto;
-}*/
 </style>
