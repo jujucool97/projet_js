@@ -5,4 +5,4 @@ Dans app.vue on retrouve les élèments qui font tourner le projet comme par exe
 Dans ListeRestaurant.vue nous avons le plus gros du projet avec la table centrée, la recherche, les indications principales d'un restaurant ainsi qu'un bouton détails.
 Nous avons également des boutons de navigation afin de voir plus de restaurants. Sur la gauche on trouve un menu pour ajouter des restaurants ou les supprimer.
 Dans Restaurant.vue nous avons toutes les infos d'un restaurant plus une carte google map afin de localiser le restaurant en question.
-Lien de ma vidéo de présentation : https://youtu.be/zzG5pOX1D8U
+Lien de ma vidéo de présentation : https://youtu.be/5raB0fb6uSA
